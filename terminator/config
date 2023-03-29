@@ -1,0 +1,122 @@
+[global_config]
+  dbus = False
+  borderless = True
+  tab_position = hidden
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.95
+    background_type = transparent
+    background_image = /usr/share/backgrounds/blackcat.jpg
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#e6d4a3"
+    font = Source Code Pro 16
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+    copy_on_selection = True
+    title_transmit_bg_color = "#1e1e1e"
+    title_inactive_bg_color = "#1e1e1e"
+  [[opaco18]]
+    background_color = "#1e1e1e"
+    background_darkness = 1.0
+    background_image = /usr/share/backgrounds/blackcat.jpg
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#e6d4a3"
+    font = Source Code Pro 18
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#1e1e1e"
+    title_inactive_bg_color = "#1e1e1e"
+  [[opaco14]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.95
+    background_image = /usr/share/backgrounds/blackcat.jpg
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#e6d4a3"
+    font = Source Code Pro 14
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#1e1e1e"
+    title_inactive_bg_color = "#1e1e1e"
+  [[opaco12]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.95
+    background_image = /usr/share/backgrounds/blackcat.jpg
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#e6d4a3"
+    font = Source Code Pro 12
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#1e1e1e"
+    title_inactive_bg_color = "#1e1e1e"
+  [[opaco20]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.95
+    background_image = /usr/share/backgrounds/blackcat.jpg
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#e6d4a3"
+    font = Source Code Pro 20
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#1e1e1e"
+    title_inactive_bg_color = "#1e1e1e"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+  [[dev]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1287:12
+      maximised = False
+      fullscreen = False
+      size = 1267, 2109
+      title = devtnascimento@devtnascimento-nb:~
+      last_active_term = 3f86b351-c5d6-4b70-994c-2e85ad1065c7
+      last_active_window = True
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 1591
+      ratio = 0.7561787072243346
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = opaco18
+      uuid = 3f86b351-c5d6-4b70-994c-2e85ad1065c7
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = opaco14
+      uuid = a00e400a-bb19-46b0-8efe-a6ced3342850
+[plugins]
